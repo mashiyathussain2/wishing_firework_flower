@@ -1,0 +1,77 @@
+  body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+canvas{display:block}
+h1 {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 3em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.jugaad {
+  text-align: center;
+  background: linear-gradient(to right, #F00 20%, #FF0 40%, #FF0 60%, #F00 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: shine 1s linear infinite;
+          animation: shine 1s linear infinite;
+}
+@-webkit-keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+h4{
+  color: red;
+  text-align: center;
+}
+h2 {
+  color: red;
+  text-align: center;
+}
+footer{ 
+  position:absolute; 
+  bottom:0; 
+  width:100%;
+  max-height:300px; 
+}
+footer{ background:black; }
+ button {
+  width: 162px;
+  height: 65px;
+  outline: none;
+  border: 1px solid #202020;
+  color: white;
+  margin: 10px 10px;
+  letter-spacing: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+}
+ @media screen and (min-width: 500px) {
+   body {
+      width:420px;
+   }
+}
+
+@media screen and (min-width: 800px) {
+   body {
+      width:720px;
+   }
+}
